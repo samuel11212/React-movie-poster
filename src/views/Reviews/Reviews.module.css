@@ -1,0 +1,15 @@
+.reviewList {
+    margin-top: 25px;
+  }
+  
+  .reviewBox {
+    padding: 25px;
+    color: rgb(126, 100, 100);;
+    background:  linear-gradient(#f1e9e9c5, #edb9b9);
+    border: 1px solid #edb9b9 ;
+
+  }
+  .reviewBox:not(:last-child),
+  .reviewAuthor {
+    margin-bottom: 20px;
+  }

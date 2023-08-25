@@ -1,0 +1,14 @@
+.search{
+    margin-top: 15px;
+    background:  linear-gradient(#d49191c5, #edb9b9);
+    margin-left: 10px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 1px solid #f1e9e9;
+    margin-left: 60px;
+}
+.search:focus,
+.search:hover{
+    background:  linear-gradient(#f1e9e9c0, #edb9b9ad);
+    border: 1px solid #edb9b9 ;
+}

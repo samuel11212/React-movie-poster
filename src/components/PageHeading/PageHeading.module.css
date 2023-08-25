@@ -1,0 +1,9 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.67);
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 30px;
+}

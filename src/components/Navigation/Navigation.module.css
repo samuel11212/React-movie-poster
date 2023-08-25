@@ -1,0 +1,34 @@
+.navigate{
+    display: flex;
+    justify-content:left;
+    height: 50px;
+    margin-left: 60px;
+
+}
+
+.link{
+    color: rgba(0, 0, 0, 0.67);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background:  linear-gradient(#cb8686, #f3baba);
+    padding: 10px 35px; 
+    border-radius: 10px;
+    border: 1px solid #f1e9e9;
+    
+}
+
+
+.link:focus,
+.link:hover{
+    color: rgb(180, 23, 23);
+    background:  linear-gradient(#f1e9e9c5, #edb9b9a4);
+    border: 1px solid #edb9b9 ;
+
+}
+
+.link:not(:last-child){
+    margin-right: 20px;
+}
+

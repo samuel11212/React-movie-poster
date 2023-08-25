@@ -1,0 +1,90 @@
+.movieDetails {
+    padding: 40px 50px;
+  }
+  
+  .movieBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .infoBox {
+    width: 65%;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.67);
+  }
+  .overviewDescription,
+  .userScore {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.797);
+  }
+  .overview,
+  .genres,
+  .additInfo,
+  .buttonBox {
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.67);
+  }
+  .genreItem:not(:last-child)::after {
+    content: ', ';
+  }
+  
+  .imageBox {
+    width: 30%;
+  }
+  .linkList {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.67);
+    padding: 5px;
+    border-radius: 10px;
+    transition: color 300ms ease, background-color 300ms ease;
+    padding: 10px 15px;
+
+
+
+  }
+  .linkList li:last-child {
+    margin-left: 10px;
+  }
+  .link:hover,
+  .link:focus {
+    color: rgb(180, 23, 23);
+    background:  linear-gradient(#f1e9e9c5, #edb9b9);
+    border: 1px solid #edb9b9 ;
+  }
+
+  .goBackButton:hover .searchIcon,
+  .goBackButton:focus .searchIcon {
+    fill:  rgb(180, 23, 23);
+  }
+  
+  .goBackButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #edb9b9 ;
+    background:  linear-gradient(#f1e9e9c5, #edb9b9);
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 300ms ease, color 300ms ease, fill 300ms ease;
+  }
+  
+  .searchIcon {
+    width: 25px;
+    height: 25px;
+    fill: rgb(105, 104, 104);
+    transition: fill 300ms ease;
+  }
